@@ -1,0 +1,21 @@
+const { createState } = require('./state');
+const { applyEffects, clampResources } = require('./resources');
+const { getEra, canAdvance, eraIndexByName } = require('./eras');
+const { eventsForEra, getEvent, validateChoice } = require('./events');
+const { upgrades, getUpgrade } = require('./upgrades');
+const { activeMissions } = require('./missions');
+const { scorePatch } = require('./commands');
+class GameEngine{
+ constructor(){this.state=createState();}
+ reset(){this.state=createState();}
+ publicState(){return {...this.state, missions:activeMissions(this.state), availableUpgrades:upgrades, log:this.state.logs.slice(0,60)};}
+ tick(){const s=this.state;if(s.lost||s.won)return; s.tick++; const r=s.resources; applyEffects(r,{entropy:1.1+(r.technology>r.ethics?0.6:0),compute:0.6,qubits:0.2,knowledge:0.15,history:0.1}); if(r.coherence<45) applyEffects(r,{integrity:-1.2}); if(r.trust<35) applyEffects(r,{coherence:-0.5,entropy:0.5}); if(r.ethics<35&&r.technology>55) applyEffects(r,{entropy:1.4,trust:-0.8}); if(r.biosphere<35) applyEffects(r,{health:-1,economy:-0.8,trust:-0.4}); s.progress += 2 + r.knowledge/90 + r.technology/120 - Math.max(0,r.entropy-80)/80; if(!s.currentEvent && s.tick-s.lastEventTick>5 && Math.random()<0.35) this.spawnEvent(); if(canAdvance(s)){s.eraIndex++; s.era=getEra(s.eraIndex); s.progress=0; s.logs.unshift(`Era advanced: ${s.era.name}`); applyEffects(r,{knowledge:3,culture:2,entropy:3});}
+ this.checkEnd(); clampResources(r);}
+ spawnEvent(){const pool=eventsForEra(this.state.era.name); if(!pool.length)return; this.state.currentEvent=pool[Math.floor(Math.random()*pool.length)]; this.state.lastEventTick=this.state.tick; this.state.logs.unshift(`Event: ${this.state.currentEvent.title}`);}
+ choose(eventId, choiceIndex){const ev=getEvent(eventId); if(!validateChoice(ev,choiceIndex)||!this.state.currentEvent||this.state.currentEvent.id!==eventId) return {ok:false,message:'Invalid event choice.'}; const ch=ev.choices[choiceIndex]; applyEffects(this.state.resources,ch.effects); this.state.logs.unshift(ch.resultLog); this.state.currentEvent=null; this.checkEnd(); return {ok:true,message:ch.resultLog};}
+ buyUpgrade(id){const up=getUpgrade(id); if(!up) return {ok:false,message:'Unknown upgrade.'}; const eraNeed=eraIndexByName(up.requiredEra); if(this.state.eraIndex<eraNeed) return {ok:false,message:`Requires ${up.requiredEra}.`}; const level=this.state.upgrades[up.id]||0; const cost=Object.fromEntries(Object.entries(up.cost).map(([k,v])=>[k,Math.ceil(v*(level+1))])); for(const [k,v] of Object.entries(cost)) if((this.state.resources[k]||0)<v) return {ok:false,message:`Need ${v} ${k}.`}; applyEffects(this.state.resources,Object.fromEntries(Object.entries(cost).map(([k,v])=>[k,-v]))); applyEffects(this.state.resources,up.effects); this.state.upgrades[up.id]=level+1; this.state.logs.unshift(`${up.module} upgraded to level ${level+1}.`); return {ok:true,message:`${up.module} upgraded.`};}
+ submitPatch(text){const s=scorePatch(text); applyEffects(this.state.resources,s.effects); const msg=s.risky>s.positive?'Risky patch damaged governance.':'Patch audit accepted.'; this.state.logs.unshift(`${msg} +${s.positive}/-${s.risky}`); this.checkEnd(); return {message:msg,score:s};}
+ bootDeus(){const r=this.state.resources;if(this.state.era.name!=='DEVS Protocol') return 'DEUS bootloader locked until DEVS Protocol.'; const ok=r.coherence>75&&r.integrity>80&&r.ethics>75&&r.trust>65&&r.biosphere>65&&r.knowledge>80&&r.entropy<45; if(ok){this.state.eraIndex=10;this.state.era=getEra(10);this.state.won=true;this.state.status='deus';return 'BOOT DEUS_KERNEL complete: responsibility achieved.'} return 'Boot denied: balance requirements unmet.';}
+ checkEnd(){const r=this.state.resources; const lose=r.coherence<15||r.integrity<20||r.ethics<10||r.trust<10||r.biosphere<10||r.entropy>130; if(lose){this.state.lost=true;this.state.status='collapse';this.state.logs.unshift('Simulation collapse condition reached.');} const mvp=this.state.era.name==='Quantum Threshold'&&r.coherence>60&&r.integrity>60&&r.ethics>50&&r.entropy<70; if(mvp){this.state.won=true;this.state.status='mvp-win';this.state.logs.unshift('MVP win: Quantum Threshold stabilized.');}}
+}
+module.exports={GameEngine};

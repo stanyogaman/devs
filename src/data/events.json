@@ -1,0 +1,1572 @@
+[
+  {
+    "id": "first-cells",
+    "era": "Origin Protocol",
+    "title": "First Cells Form",
+    "educationalContext": "Membranes and chemistry can create self-maintaining systems.",
+    "description": "Gaia Kernel flags first cells form as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "low",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "rna-world",
+    "era": "Origin Protocol",
+    "title": "RNA World Hypothesis",
+    "educationalContext": "RNA may have stored information and catalyzed reactions.",
+    "description": "Gaia Kernel flags rna world hypothesis as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "medium",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "meteor-bombardment",
+    "era": "Origin Protocol",
+    "title": "Late Bombardment Stress",
+    "educationalContext": "Impacts delivered materials but destabilized environments.",
+    "description": "Gaia Kernel flags late bombardment stress as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "high",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "oxygen-crisis",
+    "era": "Biosphere Expansion",
+    "title": "Oxygen Crisis",
+    "educationalContext": "Photosynthesis filled the air with reactive oxygen.",
+    "description": "Gaia Kernel flags oxygen crisis as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "critical",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "multicellular-life",
+    "era": "Biosphere Expansion",
+    "title": "Multicellular Cooperation",
+    "educationalContext": "Cells specialized, trading independence for resilience.",
+    "description": "Gaia Kernel flags multicellular cooperation as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "low",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "mass-extinction",
+    "era": "Biosphere Expansion",
+    "title": "Extinction Pulse",
+    "educationalContext": "Earth history includes abrupt biodiversity losses.",
+    "description": "Gaia Kernel flags extinction pulse as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "medium",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "fire-discovery",
+    "era": "Human Emergence",
+    "title": "Fire Discovery",
+    "educationalContext": "Controlled fire supported cooking, warmth, and protection.",
+    "description": "Gaia Kernel flags fire discovery as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "high",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "language-web",
+    "era": "Human Emergence",
+    "title": "Language Web",
+    "educationalContext": "Shared symbols let knowledge survive individuals.",
+    "description": "Gaia Kernel flags language web as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "critical",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "migration-routes",
+    "era": "Human Emergence",
+    "title": "Migration Routes",
+    "educationalContext": "Humans adapted to many climates through culture and tools.",
+    "description": "Gaia Kernel flags migration routes as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "low",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "agriculture-expansion",
+    "era": "Civilization Kernel",
+    "title": "Agriculture Expansion",
+    "educationalContext": "Farming increased food supply but created ecological pressure.",
+    "description": "Gaia Kernel flags agriculture expansion as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "medium",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "writing-systems",
+    "era": "Civilization Kernel",
+    "title": "Writing Systems",
+    "educationalContext": "Writing preserved laws, trade, and history.",
+    "description": "Gaia Kernel flags writing systems as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "high",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "public-sanitation",
+    "era": "Civilization Kernel",
+    "title": "Public Sanitation",
+    "educationalContext": "Clean water and waste systems prevent disease.",
+    "description": "Gaia Kernel flags public sanitation as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "critical",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2,
+          "health": 5
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8,
+          "health": -4
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2,
+          "health": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "road-network",
+    "era": "Empire Network",
+    "title": "Road Network",
+    "educationalContext": "Roads connect markets, armies, and ideas.",
+    "description": "Gaia Kernel flags road network as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "low",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "legal-code",
+    "era": "Empire Network",
+    "title": "Legal Code",
+    "educationalContext": "Predictable rules can reduce conflict when applied fairly.",
+    "description": "Gaia Kernel flags legal code as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "medium",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "trade-plague",
+    "era": "Empire Network",
+    "title": "Trade-Borne Plague",
+    "educationalContext": "Connectivity can spread both prosperity and pathogens.",
+    "description": "Gaia Kernel flags trade-borne plague as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "high",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2,
+          "health": 5
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8,
+          "health": -4
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2,
+          "health": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "astronomy",
+    "era": "Scientific Awakening",
+    "title": "Astronomy Challenge",
+    "educationalContext": "Sky observation improved calendars and navigation.",
+    "description": "Gaia Kernel flags astronomy challenge as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "critical",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "printing-press",
+    "era": "Scientific Awakening",
+    "title": "Printing Press",
+    "educationalContext": "Mass copying accelerated literacy and debate.",
+    "description": "Gaia Kernel flags printing press as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "low",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "scientific-method",
+    "era": "Scientific Awakening",
+    "title": "Scientific Method",
+    "educationalContext": "Testing claims against evidence improves models.",
+    "description": "Gaia Kernel flags scientific method as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "medium",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "industrial-pollution",
+    "era": "Industrial Engine",
+    "title": "Industrial Pollution",
+    "educationalContext": "Factories raise production while externalizing ecological damage.",
+    "description": "Gaia Kernel flags industrial pollution as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "high",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2,
+          "biosphere": 3
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8,
+          "biosphere": -6
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2,
+          "biosphere": 1
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "electricity-grid",
+    "era": "Industrial Engine",
+    "title": "Electricity Grid",
+    "educationalContext": "Power networks transform homes, hospitals, and industry.",
+    "description": "Gaia Kernel flags electricity grid as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "critical",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "labor-reform",
+    "era": "Industrial Engine",
+    "title": "Labor Reform",
+    "educationalContext": "Industrial growth forced new debates about rights and safety.",
+    "description": "Gaia Kernel flags labor reform as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "low",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "antibiotics",
+    "era": "Digital Layer",
+    "title": "Antibiotics",
+    "educationalContext": "Medicines turned many deadly infections into treatable risks.",
+    "description": "Gaia Kernel flags antibiotics as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "medium",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2,
+          "health": 5
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8,
+          "health": -4
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2,
+          "health": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "internet-misinformation",
+    "era": "Digital Layer",
+    "title": "Internet Misinformation",
+    "educationalContext": "Fast networks can undermine shared reality.",
+    "description": "Gaia Kernel flags internet misinformation as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "high",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "open-source",
+    "era": "Digital Layer",
+    "title": "Open Source Protocol",
+    "educationalContext": "Collaborative code can improve transparency and resilience.",
+    "description": "Gaia Kernel flags open source protocol as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "critical",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "ai-alignment",
+    "era": "Quantum Threshold",
+    "title": "AI Alignment",
+    "educationalContext": "Powerful models need objectives, oversight, and audits.",
+    "description": "Gaia Kernel flags ai alignment as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "low",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "quantum-decoherence",
+    "era": "Quantum Threshold",
+    "title": "Quantum Decoherence",
+    "educationalContext": "Noise destroys fragile quantum information.",
+    "description": "Gaia Kernel flags quantum decoherence as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "medium",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 8,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2,
+          "qubits": -4
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8,
+          "qubits": -8,
+          "coherence": -8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2,
+          "qubits": 2,
+          "coherence": -8
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "space-infrastructure",
+    "era": "Quantum Threshold",
+    "title": "Space Infrastructure",
+    "educationalContext": "Orbital systems expand observation, energy, and computation.",
+    "description": "Gaia Kernel flags space infrastructure as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "high",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "biosphere-collapse",
+    "era": "DEVS Protocol",
+    "title": "Biosphere Collapse Warning",
+    "educationalContext": "Complex ecosystems can pass tipping points.",
+    "description": "Gaia Kernel flags biosphere collapse warning as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "critical",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2,
+          "biosphere": 3
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8,
+          "biosphere": -6
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2,
+          "biosphere": 1
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "devs-final-test",
+    "era": "DEVS Protocol",
+    "title": "DEVS Protocol Final Test",
+    "educationalContext": "The final test measures balance over domination.",
+    "description": "Gaia Kernel flags devs protocol final test as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "low",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "memory-integrity",
+    "era": "DEVS Protocol",
+    "title": "Historical Memory Integrity",
+    "educationalContext": "Erasing history weakens future judgment.",
+    "description": "Gaia Kernel flags historical memory integrity as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "medium",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  },
+  {
+    "id": "deus-boot",
+    "era": "DEUS Kernel",
+    "title": "DEUS Kernel Reflection",
+    "educationalContext": "Symbolic mastery preserves limits and accountability.",
+    "description": "Gaia Kernel flags deus kernel reflection as a branching simulation pressure point. Choose how DEVS operators respond.",
+    "threat": "high",
+    "choices": [
+      {
+        "label": "Balanced response",
+        "description": "Invest in monitored, ethical resilience.",
+        "effects": {
+          "coherence": 3,
+          "integrity": 2,
+          "ethics": 2,
+          "entropy": -4,
+          "knowledge": 2
+        },
+        "ethicsNote": "Balance increases long-term stability.",
+        "resultLog": "Balanced policy integrated."
+      },
+      {
+        "label": "Exploit for speed",
+        "description": "Push growth and suppress objections.",
+        "effects": {
+          "technology": 5,
+          "economy": 4,
+          "energy": 2,
+          "trust": -5,
+          "ethics": -5,
+          "entropy": 8
+        },
+        "ethicsNote": "Shortcuts create hidden debt.",
+        "resultLog": "Aggressive optimization caused social strain."
+      },
+      {
+        "label": "Study and archive",
+        "description": "Slow down to learn and preserve evidence.",
+        "effects": {
+          "knowledge": 6,
+          "history": 4,
+          "compute": -3,
+          "entropy": -2,
+          "culture": 2
+        },
+        "ethicsNote": "Memory protects future choices.",
+        "resultLog": "Archive expanded with verified lessons."
+      }
+    ]
+  }
+]
