@@ -22,19 +22,25 @@ Copy `.env.example` to `.env` if needed.
 ## Commands
 `HELP`, `STATUS`, `COOL`, `QEC`, `STABILIZE`, `ALLOCATE <resource> <amount>`, `PATCH <education|grid|research|archive|ethics|biosphere|health>`, `UPGRADE <moduleId>`, `SIMULATE <turns>`, `BOOT DEUS_KERNEL`, `RESET`.
 
-## Gameplay
+## Gameplay and retention systems
 Entropy rises every tick. Low coherence damages integrity; low trust damages society stability; low ethics makes powerful upgrades risky; high technology without ethics increases entropy; biosphere collapse hurts health and economy. Events teach short history, science, ecology, and technology concepts. Resource values are clamped from 0-100 except entropy, which can reach 150.
+
+The first 10 minutes are the **Operator Initiation** onboarding chapter. ORA, a scripted assistant, guides the player through three active objectives. The UI includes reward popups, achievement badges, WebAudio feedback with a sound toggle, era transition animation, entropy danger visuals, mobile bottom navigation, and browser localStorage export/import.
+
+The final MVP mission is to reach **Quantum Threshold** without collapse while keeping coherence, integrity, and ethics high enough for the Quantum Threshold win condition.
 
 ## Architecture
 - `server.js` serves Express, Socket.IO, and validated server-side actions.
-- `src/game/engine.js` owns ticking, era progression, resources, events, upgrades, win/loss checks, and patch scoring.
+- `src/game/engine.js` owns ticking, era progression, resources, events, upgrades, rewards, achievements, win/loss checks, and patch scoring.
+- `src/game/objectives.js` defines the three active objective sets, including Operator Initiation and the final MVP mission guidance.
+- `src/game/achievements.js` defines badge unlock rules.
 - `src/game/state.js`, `resources.js`, `events.js`, `eras.js`, `upgrades.js`, `missions.js`, and `commands.js` keep logic modular.
 - `src/game/aiDirector.js` is disabled by default and never exposes keys to the frontend.
 - `src/data/*.json` stores eras, events, missions, and technologies so a future database (SQLite/MySQL/PostgreSQL) can replace file loading.
 - `public/*` implements the responsive Canvas quantum OS UI with no paid assets.
 
 ## Adding content
-Add eras to `src/data/eras.json`, events to `src/data/events.json`, upgrades in `src/game/upgrades.js`, missions in `src/data/missions.json`, and technologies in `src/data/technologies.json`. Keep event effects small and trust the resource clamp helpers.
+Add eras to `src/data/eras.json`, events to `src/data/events.json`, upgrades in `src/game/upgrades.js`, missions in `src/data/missions.json`, achievements in `src/game/achievements.js`, objective sets in `src/game/objectives.js`, and technologies in `src/data/technologies.json`. Keep event effects small and trust the resource clamp helpers.
 
 ## Hostinger deployment notes
 Use a Node.js hosting plan, upload the project, run `npm install`, set environment variables in the panel, and start with `npm start`. Ensure WebSocket proxying is enabled for Socket.IO.
