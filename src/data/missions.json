@@ -1,0 +1,7 @@
+[
+  {"id":"stable-origin","era":"Origin Protocol","title":"Stabilize Early Earth","requirements":{"coherence":50,"biosphere":50},"reward":{"knowledge":4}},
+  {"id":"operator-initiation","era":"Origin Protocol","title":"Operator Initiation: learn the console, patches, and coherence control","requirements":{"coherence":70,"ethics":50,"trust":45},"reward":{"compute":4,"knowledge":4}},
+  {"id":"ethical-growth","era":"Any","title":"Maintain Ethics Kernel","requirements":{"ethics":50,"trust":45},"reward":{"coherence":3}},
+  {"id":"final-mvp-quantum","era":"Any","title":"Final MVP Mission: reach Quantum Threshold without collapse","requirements":{"coherence":61,"integrity":61,"ethics":51},"reward":{"qubits":5}},
+  {"id":"quantum-mvp-win","era":"Quantum Threshold","title":"Quantum Threshold Win Condition","requirements":{"coherence":61,"integrity":61,"ethics":51},"reward":{"qubits":5}}
+]
